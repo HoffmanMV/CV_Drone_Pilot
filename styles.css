@@ -40,7 +40,7 @@ body{
 }
 
 .name{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: black;
   text-align: center;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ body{
 }
 
 .career{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: teal;
   text-align: center;
   text-transform: uppercase;
@@ -64,7 +64,7 @@ body{
 /*Contacts Section*/
 
 .main-title{
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: black;
@@ -73,42 +73,42 @@ body{
 
 .contact-info ul{
   padding-top: .4rem;
-  border-top: 2.5px solid darkcyan;
+  border-top: 3.5px solid teal;
 }
 .contact-info ul li{
   padding: .4rem 0;
   display: flex;
   align-items: center;
   color: black;
-  font-size: 1.1rem;
+  font-size: .9rem;
 }
 .contact-info ul li i{
   padding-right: 1rem;
-  font-size: 1rem;
+  font-size: .9rem;
   color: teal;
 }
 
 /*Skills section*/
 
 .skills-section ul{
-  padding-top: .8rem;
-  border-top: 2.5px solid teal;
+  padding-top: 1rem;
+  border-top: 3.5px solid teal;
 }
 
 .skills-section ul li{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: .2rem 0;
+  padding: .3rem 0;
 }
 .skill-title{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: black;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .progress-bar{
   width: 100%;
-  height: .2rem;
+  height: 0.4rem;
   background-color:coral;
   position: relative;
   border-radius: 12px;
@@ -135,20 +135,14 @@ body{
 .Drone-repair{
   width: 80%;
 }
-.Docker{
+.Soldering{
+  width: 80%;
+}
+.Printing{
   width: 70%;
 }
-.SQL{
-  width: 70%;
-}
-.Html{
-  width: 70%;
-}
-.Css{
-  width: 70%;
-}
-.GitHub{
-  width: 70%;
+.Troubleshooting{
+  width: 90%;
 }
 
 /*Hobbies Section*/
@@ -156,7 +150,7 @@ body{
 .hobbies-section ul{
   padding-top: .5rem;
   border-top: 2.5px solid teal;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .hobbies-section ul li{
   padding: .4rem 0;
@@ -173,7 +167,7 @@ body{
 .quality-section ul{
   padding-top: .5rem;
   border-top: 2.5px solid teal;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .quality-section ul li{
   padding: .4rem 0;
