@@ -148,8 +148,8 @@ body{
 /*Hobbies Section*/
 
 .hobbies-section ul{
-  padding-top: .5rem;
-  border-top: 2.5px solid teal;
+  padding-top: 0.5rem;
+  border-top: .2rem solid teal;
   font-size: 0.9rem;
 }
 .hobbies-section ul li{
@@ -166,7 +166,7 @@ body{
 
 .quality-section ul{
   padding-top: .5rem;
-  border-top: 2.5px solid teal;
+  border-top: .2rem solid teal;
   font-size: 0.9rem;
 }
 .quality-section ul li{
@@ -194,12 +194,13 @@ body{
   color: black;
   margin-bottom: 1.2rem;
   position: relative;
+  font-size: 1rem;
 }
 .right-title::after{
   content: "";
   position: absolute;
-  width: 60%;
-  height: .1rem;
+  width: 80%;
+  height: .2rem;
   top: 50%;
   background-color: teal;
   border-radius: 10px;
@@ -231,13 +232,13 @@ body{
 }
 .tl-title{
   letter-spacing: 1px;
-  font-size: 1.3rem;
+  font-size: .9rem;
   color: black;
   text-transform: uppercase;
 }
 .tl-title-2{
   letter-spacing: 1px;
-  font-size: 1.3rem;
+  font-size: .9rem;
   color: teal;
   text-transform: uppercase;
 }
@@ -259,7 +260,7 @@ body{
 }
 
 .sert{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
 }
 
